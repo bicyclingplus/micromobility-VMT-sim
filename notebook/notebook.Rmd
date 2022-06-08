@@ -1,0 +1,21 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Who
+This is a project being led by Dillon Fitch, a researcher of traffic technology and design at UC Davis.
+
+# Goal
+Dillon studies whether micromobility changes the way that people get around. Does it reduce their driving?
+
+# Data
+Dillon is planning a survey. His planned design is hierarchical: select cities, then micromobility users in those cities, then follow each user for a while to get data on their driving behavior and their micromobility use. Plans for two cohorts: one is all registered users of a micromobility service, and the other is a set of users who are both new and regular micromobility users.
+
+These will be paired with another cohort in each city, demographically matched but not micromobility users.
+
+Each cohort in each city should have 200+ subjects.
+
+# Analysis
+A linear mixed-effect model is the first choice here.
+

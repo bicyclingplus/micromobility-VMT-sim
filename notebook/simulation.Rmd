@@ -1,0 +1,29 @@
+---
+title: "traffic simulation"
+author: "Wesley Brooks"
+date: "4/1/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Traffic simulation
+
+This is an attempt to simulate travel decisions in a way that's relevant to desiging the North American Micromobility Project survey. The idea is to be able to simulate possible realities and then see what results we'd get from the NAMP under those conditions.
+
+# Framework
+
+I'm attempting to follow the classic traffic prediction framework, which is broken into:
+
+1. Trip generation
+2. Trip distribution (aka destination choice)
+3. Mode choice
+4. Route choice
+
+The first three are relevant to the current project, but I believe that I can safely ignore route choice.
+
+The model is parameterized in terms of utility. Each person has some functional relationship of utility to trip characteristics (like length, purpose, mode). In a probabilistic setting, let's say that decisions are made randomly but with probability proportional to the utility.
+
+# 
