@@ -1,8 +1,8 @@
-# North American Micromobility Project (NAMP)
+# American Micromobility Panel (AMP)
 
-Contained here are the elements of the NAMP project, intended to estimate the extent to which micromobility use causes car use to decline.
+Contained here are the elements of the AMP project, intended to estimate the extent to which micromobility use causes car use to decline.
 
-The project is run by Dillon Fitch
+The project is run by Dillon Fitch, analysis by Wesley Brooks (UCD Datalab). All comments written by Wesley in first person.
 
 Data from Dillon's earlier JUMP bike survey are in `data/jump_sacramento_data`. This is where I am getting my estimates of how many JUMP trips a person takes, how long those trips are, and whether they substitute for car travel.
 
